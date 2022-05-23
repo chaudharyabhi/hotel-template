@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: "Raleway",
+  Arial,
+  Helvetica,
+  sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  font-family: "Raleway",
+  Arial,
+  Helvetica,
+  sans-serif;;
+}
+
+.main {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  color: black;
+}
+
+#logoid {
+  color: white;
+}
+
+.logo {
+  padding: 10px;
+  background-color: rgb(255, 4, 4);
+}
+
+.rooms {
+  padding: 10px;
+}
+
+.about {
+  padding: 10px;
+}
+
+.contact {
+  padding: 10px;
+}
+
+.book {
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  right: 0;
+}
+
+.rooms:hover {
+  background-color: rgb(149, 149, 150);
+}
+.about:hover {
+  background-color: rgb(149, 149, 150);
+}
+.contact:hover {
+  background-color: rgb(149, 149, 150);
+}
+.book:hover {
+  background-color: rgb(149, 149, 150);
+}
+
+.img1 {
+  height: 680px;
+  width: 100%;
+  min-width: 500px;
+}
+
+.input {
+  position: absolute;
+  background-color: white;
+  top: 200px;
+  left: 50px;
+  width: 550px;
+  height: 350px;
+}
+
+.hotel-name {
+  font-size: 25px;
+  text-align: left;
+  padding: 18px;
+  background-color: red;
+}
+#hotelname {
+  color: white;
+}
+
+.check,
+.ak {
+  display: flex;
+  padding: 20px;
+}
+
+.checkin,
+.checkout {
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.adults,
+.kids {
+  padding: 10px;
+  padding-top: 0;
+}
+
+input {
+  width: 235px;
+  height: 35px;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+#hotelname {
+  font-size: 22px;
+}
+p {
+  font-size: 16px;
+  padding: 2px;
+}
+
+#checkid {
+  color: white;
+}
+.search {
+  background-color: rgb(117, 117, 117);
+  display: inline-block;
+  padding: 15px;
+  margin-left: 30px;
+}
+
+.search:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.rooms2 {
+  padding: 20px;
+}
+
+.input2 {
+  padding: 20px;
+}
+
+.checkin2 {
+  padding: 20px;
+  padding-left: 0;
+  padding-top: 0;
+}
+.checkout2 {
+  padding: 20px;
+  padding-top: 0;
+}
+.adults2 {
+  padding: 20px;
+  padding-top: 0;
+}
+.kids2 {
+  padding: 20px;
+  padding-top: 0;
+}
+
+#para1 {
+  letter-spacing: 1px;
+  margin-left: 20px;
+  color: red;
+}
+
+.search1 {
+  margin-left: 10px;
+}
+
+.searchdiv {
+  margin-top: 10px;
+  position: relative;
+}
+
+#searchid {
+  position: absolute;
+  padding: 8px;
+  background-color: black;
+  top: -10px;
+  width: 132px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+#searchid:hover {
+  background-color: grey;
+}
+
+/* room images start from here */
+
+.bedroom {
+  margin: 21.6px;
+  margin-top: -15px;
+  background-color: rgb(240, 240, 240);
+  display: flex;
+}
+
+.single,
+.double,
+.deluxe {
+  width: 32%;
+  height: 500px;
+  background-color: white;
+}
+
+#singleimg,
+#doubleimg,
+#deluxeimg {
+  height: 260px;
+}
+
+.double {
+  margin: 25px;
+  margin-top: 0;
+}
+
+/* About Page starts from here  */
+
+.about-page{
+  display: flex;
+}
+
+.about-text{
+  width: 30%;
+  /* background-color: aqua; */
+  margin: 20px;
+}
+
+.about-map{
+  width: 65%;
+  /* background-color: antiquewhite; */
+  margin: 20px;
+}
+
+#map{
+  width: 100%;
+  object-fit: contain;
+}
+
+h2{
+  margin-bottom: 15px;
+}
+
+.contacts{
+  margin: 20px;
+}
+
+span{
+  padding-left: 60px;
+  padding-right: 70px;
+}
+
+.banner{
+  width: 100%;
+  background-color: rgb(255, 81, 81);
+  padding:3%;
+  padding-left: none;
+  color: white;
+}
+
+.fa-info-circle{
+  font-size: 20px;
+}
+
+/* haha,, Five Images now */
+
+.five-images{
+  margin: 20px;
+/* background-color: aqua; */
+  height: 28rem;
+  position: relative;
+}
+
+.two-images{
+  /* background-color: antiquewhite; */
+position: absolute;
+bottom: 0;
+right: 0px;
+width: 50%;
+height: 48%;
+}
